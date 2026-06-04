@@ -100,10 +100,10 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5               &mmv MOVE_UP     &kp N6       &kp N7        &kp N8        &kp N9           &kp N0    &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp F         &kp P   &lt 2 B              &mmv MOVE_DOWN   &hrm HOME X  &hrm PG_DN L  &hrm PG_UP O  &hrms END U      &kp SQT   &kp BSLH
-&kp CAPS    &kp R  &hrms LEFT_ALT N  &hrm LCTRL S  &hrm LSHFT T  &kp G          &mmv MOVE_LEFT   &kp Z        &hrm RSHFT H  &hrm RCTRL E  &hrms RALT I     &kp A     &kp GRAVE
-&kp LSHFT   &kp Y  &kp M             &kp C         &kp D         &kp V          &mmv MOVE_RIGHT  &kp J        &kp K         &kp COMMA     &kp DOT       &kp SLASH  &kp ENTER
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5               &mmv MOVE_UP     &kp N6       &kp N7        &kp N8        &kp N9           &kp N0    &kp BSLH
+&kp TAB     &kp Q      &kp W         &kp F         &kp P   &lt 2 B              &mmv MOVE_DOWN   &hrm HOME X  &hrm PG_DN L  &hrm PG_UP O  &hrms END U      &kp SQT   &kp GRAVE
+&kp LSHFT   &kp R      &hrms LALT N  &hrm LCTRL S  &hrm LSHFT T  &kp G          &mmv MOVE_LEFT   &kp Z        &hrm RSHFT H  &hrm RCTRL E  &hrms RALT I     &kp A     &kp RSHFT
+&kp LCTRL   &kp Y      &kp M         &kp C         &kp D         &kp V          &mmv MOVE_RIGHT  &kp J        &kp K         &kp COMMA     &kp DOT       &kp SLASH    &kp RCTRL
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE   &hrm LCTRL TAB &mkp LCLK        &hrm RSHFT ENTER  &hrm RGUI BSPC     &mo 2         &kp RIGHT_SHIFT  &kp DELETE
             >;
 
