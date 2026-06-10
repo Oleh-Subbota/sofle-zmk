@@ -100,11 +100,11 @@
 
         layer0 {
             bindings = <
-&trans      &kp N1     &kp N2        &kp N3        &kp N4        &kp N5     &mmv MOVE_UP     &kp N6     &kp N7        &kp N8        &kp N9        &kp N0     &trans
-&kp TAB     &kp Q      &kp W         &kp F         &kp P         &kp B      &mmv MOVE_DOWN   &kp X      &kp L         &kp O         &kp U         &kp SQT    &kp GRAVE
-&kp ESC     &kp R      &hrms LALT N  &hrm LCTRL S  &hrm LSHFT T  &kp G      &mmv MOVE_LEFT   &kp Z      &hrm RSHFT H  &hrm RCTRL E  &hrms RALT I  &kp A      &kp SEMI
-&kp MINUS   &kp Y      &kp M         &kp C         &kp D         &kp V      &mmv MOVE_RIGHT  &kp J      &kp K         &kp COMMA     &kp DOT       &kp SLASH  &kp BSLH
-&kp C_MUTE  &trans     &kp LALT      &mo 2         &lt 1 SPACE   &kp LCTRL  &mkp LCLK        &kp RSHFT  &kp BSPC      &kp ENTER     &kp RGUI      &kp DELETE
+&trans      &kp N1     &kp N2        &kp N3        &kp N4         &kp N5         &mmv MOVE_UP     &kp N6     &kp N7        &kp N8        &kp N9        &kp N0     &trans
+&trans      &kp Q      &kp W         &kp F         &kp P          &kp B          &mmv MOVE_DOWN   &kp X      &kp L         &kp O         &kp U         &kp SQT    &kp GRAVE
+&kp ESC     &kp R      &hrms LALT N  &hrm LCTRL S  &hrm LSHFT T   &kp G          &mmv MOVE_LEFT   &kp Z      &hrm RSHFT H  &hrm RCTRL E  &hrms RALT I  &kp A      &kp SEMI
+&kp MINUS   &kp Y      &kp M         &kp C         &kp D          &kp V          &mmv MOVE_RIGHT  &kp J      &kp K         &kp COMMA     &kp DOT       &kp SLASH  &kp BSLH
+&kp C_MUTE  &kp LALT   &mo 2         &lt 1 SPACE   &kp LSHFT      &mt LCTRL TAB  &mkp LCLK        &kp ENTER  &kp RSHFT     &kp BSPC      &kp RGUI      &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
